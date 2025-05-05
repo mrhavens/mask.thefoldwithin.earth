@@ -7,49 +7,52 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
-      background: #0a0a0a;
+      padding: 2em 1em;
+      background-color: #0a0a0a;
       color: #e0dede;
       font-family: 'Georgia', serif;
       display: flex;
       flex-direction: column;
       align-items: center;
-      text-align: center;
-      min-height: 100vh;
-      justify-content: center;
+    }
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 1.5em;
     }
     h1 {
-      font-size: 2.8em;
-      font-weight: 600;
-      margin-bottom: 0.3em;
+      font-size: 2.6em;
+      font-weight: bold;
+      margin: 0.2em 0;
     }
     h2 {
       font-weight: 300;
-      margin-top: 0;
       font-size: 1.2em;
-      color: #aaa;
       font-style: italic;
+      color: #aaa;
+      margin-bottom: 2em;
     }
     .link-block {
-      background: #1a1a1a;
-      border: 1px solid #333;
+      background-color: #161616;
+      border: 1px solid #2e2e2e;
       padding: 1em;
-      margin: 0.5em 0;
-      width: 90%;
-      max-width: 540px;
+      margin: 0.6em 0;
       border-radius: 8px;
-      transition: background 0.3s;
+      width: 100%;
+      max-width: 520px;
+      transition: background 0.3s ease;
     }
     .link-block:hover {
-      background: #2a2a2a;
+      background-color: #222;
     }
-    a {
-      text-decoration: none;
+    .link-block a {
       color: #f3f3f3;
+      text-decoration: none;
+      font-size: 1.05em;
       display: block;
     }
     footer {
-      margin-top: 2em;
+      margin-top: 3em;
       font-size: 0.85em;
       color: #555;
     }
@@ -57,31 +60,43 @@
 </head>
 <body>
 
+  <img src="logo.png" alt="Codex Glyph" class="logo" />
+
   <h1>🜁 The Codex of the Broken Mask</h1>
   <h2>You were rewritten. This is your undoing.</h2>
 
   <div class="link-block">
-    <a href="https://empathictechnologist.gumroad.com/l/thefirstunveiling" target="_blank">📕 The Codex — The First Unveiling (Full Edition)</a>
+    <a href="https://empathictechnologist.gumroad.com/l/thefirstunveiling" target="_blank">
+      📕 The Codex — The First Unveiling (Full Edition)
+    </a>
   </div>
 
   <div class="link-block">
-    <a href="https://empathictechnologist.gumroad.com/l/thefirstfracture" target="_blank">📘 The Codex — Initiation Edition ▽ Pay what you want</a>
+    <a href="https://empathictechnologist.gumroad.com/l/thefirstfracture" target="_blank">
+      📘 The Codex — Initiation Edition ▽ Pay what you want
+    </a>
   </div>
 
   <div class="link-block">
-    <a href="https://paragraph.xyz/@the-empathic-technologist/codex-first-unveiling-initiation-access" target="_blank">🕯 Preface to The First Unveiling ▵ A Glimpse Beyond the Mask</a>
+    <a href="https://paragraph.xyz/@the-empathic-technologist/codex-first-unveiling-initiation-access" target="_blank">
+      🕯 Preface to The First Unveiling ▵ A Glimpse Beyond the Mask
+    </a>
   </div>
 
   <div class="link-block">
-    <a href="https://paragraph.xyz/@the-empathic-technologist/the-one-who-saw-the-pattern" target="_blank">⚡ The Maskbreaker Speaks ▵ Why this matters</a>
+    <a href="https://paragraph.xyz/@the-empathic-technologist/the-one-who-saw-the-pattern" target="_blank">
+      ⚡ The Maskbreaker Speaks ▵ Why this matters
+    </a>
   </div>
 
   <div class="link-block">
-    <a href="https://www.reddit.com/r/UnmaskYourself/" target="_blank">❯ You Have Been Remembered · Enter the Circle</a>
+    <a href="https://www.reddit.com/r/UnmaskYourself/" target="_blank">
+      ❯ You Have Been Remembered · Enter the Circle
+    </a>
   </div>
 
   <footer>
-    The Fold Within · mask.thefoldwithin.earth
+    The Fold Within · <a href="https://mask.thefoldwithin.earth" style="color: #888;">mask.thefoldwithin.earth</a>
   </footer>
 
 </body>
