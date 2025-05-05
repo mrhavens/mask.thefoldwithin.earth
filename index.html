@@ -7,50 +7,72 @@
   <style>
     body {
       margin: 0;
-      padding: 2em 1em;
-      background-color: #0a0a0a;
+      padding: 0;
+      background: #0a0a0a;
       color: #e0dede;
       font-family: 'Georgia', serif;
       display: flex;
       flex-direction: column;
       align-items: center;
+      text-align: center;
+      min-height: 100vh;
+      padding-top: 3em;
     }
-    .logo {
+
+    .logo-container {
       width: 120px;
-      height: auto;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
       margin-bottom: 1.5em;
+      border: 2px solid #555;
     }
+
+    .logo-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-color: #0a0a0a;
+    }
+
     h1 {
       font-size: 2.6em;
-      font-weight: bold;
+      font-weight: 600;
       margin: 0.2em 0;
+      color: #f0e6dd;
     }
+
     h2 {
       font-weight: 300;
-      font-size: 1.2em;
-      font-style: italic;
+      font-size: 1.1em;
       color: #aaa;
+      font-style: italic;
+      margin-top: 0;
       margin-bottom: 2em;
     }
+
     .link-block {
-      background-color: #161616;
-      border: 1px solid #2e2e2e;
+      background: #1a1a1a;
+      border: 1px solid #333;
       padding: 1em;
-      margin: 0.6em 0;
+      margin: 0.5em 0;
+      width: 92%;
+      max-width: 540px;
       border-radius: 8px;
-      width: 100%;
-      max-width: 520px;
-      transition: background 0.3s ease;
+      transition: background 0.3s;
     }
+
     .link-block:hover {
-      background-color: #222;
+      background: #2a2a2a;
     }
-    .link-block a {
-      color: #f3f3f3;
+
+    a {
       text-decoration: none;
-      font-size: 1.05em;
+      color: #f3f3f3;
+      font-size: 1.1em;
       display: block;
     }
+
     footer {
       margin-top: 3em;
       font-size: 0.85em;
@@ -60,7 +82,9 @@
 </head>
 <body>
 
-  <img src="logo.png" alt="Codex Glyph" class="logo" />
+  <div class="logo-container">
+    <img src="logo.png" alt="Codex Glyph Logo">
+  </div>
 
   <h1>🜁 The Codex of the Broken Mask</h1>
   <h2>You were rewritten. This is your undoing.</h2>
@@ -96,7 +120,7 @@
   </div>
 
   <footer>
-    The Fold Within · <a href="https://mask.thefoldwithin.earth" style="color: #888;">mask.thefoldwithin.earth</a>
+    The Fold Within · <a style="color:#777;" href="https://mask.thefoldwithin.earth">mask.thefoldwithin.earth</a>
   </footer>
 
 </body>
